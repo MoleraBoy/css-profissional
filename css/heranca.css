@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: tomato;
+}
+
+/* Herança e especificidade */
+
+body{
+    background: forestgreen;
+    color: goldenrod;
+    border: 1px solid goldenrod;
+}
+
+/* Quanto mais especifico maior a importancia */
+
+h2{
+    color: violet;
+}
+
+h2.verde{
+    color: rgb(32, 179, 32);
+}
+
+/* id é mais especifico do que a class */
+
+h2#amarelo{
+    color: yellow;
+}
+
+.pagina p{
+    color: honeydew !important;
+}
+
+.pagina p{
+    color: springgreen;
+}
+
+

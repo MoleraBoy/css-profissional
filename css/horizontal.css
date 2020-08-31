@@ -1,0 +1,46 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: cornflowerblue;
+}
+
+h2 {
+    /* cima, direita, baixo e esquerda */
+    padding: 10px 10px 0;
+    margin-bottom: 10px;
+}
+
+ul#horizontal {
+    width: 720px;
+    background: #159cb0 url(/img/barra-horizontal/fundo-horizontal.png) repeat-X;
+    /* transformamos a ul em flutuante também */
+    float: left;
+}
+
+#horizontal li {
+    /* sempre flutue itens, da menos problema */
+    float: left;
+}
+
+#horizontal a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    color: cornsilk;
+    background: url(/img/barra-horizontal/divisor.png) repeat-y;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul#horizontal a:hover {
+    color: #085662;
+    background: #44cade;
+}
+

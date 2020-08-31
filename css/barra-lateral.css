@@ -1,0 +1,71 @@
+/* * {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(216, 216, 247);
+}
+
+ul {
+    width: 200px;
+    margin-top: 10px;
+}
+
+li {
+    padding: 5px 20px;
+    background: url(/img/barra-lateral/seta.png) no-repeat left center;
+}
+ */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    /* cima, direita, baixo e esquerda */
+    padding: 10px 10px 0;
+}
+
+ul {
+    padding: 10px;
+}
+
+ul a {
+    /* proporção da imagem que será usada */
+    width: 200px;
+    height: 40px;
+    /* links são elementos inline, no caso queremos block */
+    display: block;
+    color: black;
+    /* É tipo um padding mas muito melhor para textos */
+    text-indent: 40px;
+    /* podemos aumentar o tamanho da linha do texto */
+    line-height: 40px;
+    /* Além de colocar imagem escolha uma cor de fundo */
+    background: #f7b600 url(/img/barra-lateral/menu.png) no-repeat;
+}
+
+a:hover {
+    background-position: right;
+    /* caso a imagem não recarregue */
+    background-color: sienna;
+    color: white;
+}
+
+#home #lista-lateral .home a,
+#sobre #lista-lateral .sobre a,
+#servicos #lista-lateral .servicos a,
+#noticias #lista-lateral .noticias a,
+#contato #lista-lateral .contato a {
+    background-position: right;
+    /* caso a imagem não recarregue */
+    background-color: sienna;
+    color: white;
+}
+
