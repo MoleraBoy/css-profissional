@@ -1,0 +1,88 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    /* % foi usada para deixar o layout líquido */
+}
+
+body {
+    font-family: 'Trebuchet MS', 'helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(236, 233, 227);
+}
+
+#container {
+    /* width: 720px; */
+    width: 90%;
+    min-width: 720px;
+    max-width: 960px; 
+    /* min-height e max-height é a mesma ideia */
+    margin: 0 auto;
+}
+
+#marca {
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo {
+    /* width: 520px; */
+    width: 75%;
+    float: right;
+}
+
+#conteudo-1 {
+    /* width: 320px */
+    width: 64%;
+    float: left;
+}
+
+#conteudo-2 {
+    /* width: 180px; */
+    width: 35%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-1 h2,
+p,
+#conteudo-2 h2,
+p {
+    padding: 0 20px 0 20px;
+}
+
+#navegacao {
+    /* width: 180px; */
+    width: 23%;
+    float: left;
+    padding: 20px 0 20px;
+    background: #d1d1d1;
+}
+
+#navegacao a {
+    background: rgb(150, 153, 148);
+    color: rgb(255, 255, 255);
+    width: 80%;
+    display: block;
+    text-indent: 25px;
+    text-align: left;
+    padding: 5px;
+    padding-left: .1px;
+}
+
+#navegacao a:hover {
+    background: whitesmoke;
+    color: rgb(150, 153, 148);
+}
+
+ul #atual a {
+    color: rgb(150, 153, 148);
+    background: whitesmoke;
+}
+
+#rodape {
+    text-align: center;
+    clear: both;
+    padding: 5px;
+    background: #c4c4c4;
+}

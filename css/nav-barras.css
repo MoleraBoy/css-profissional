@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(255, 221, 221);
+    font-family: 'Trebuchet MS', 'Helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(190, 9, 93);
+    padding: 5px 20px;
+}
+
+p {
+    float: left;
+    padding: 20px;
+}
+
+#nav{
+    text-align: center;
+    border: 1px solid red;
+    width: 720px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#nav-barras {
+    right: 0;
+    float: left;
+}
+
+#nav-barras li {
+    background: #f953c6;
+    float: left;
+    border: .8px solid purple;
+    border-radius: 8px 8px 0 0;
+}
+
+#nav-barras a {
+    line-height: 3.2em;
+    padding: 0 2em;
+    color: white;
+    display: block;
+}
+
+#nav-barras li:hover {
+    cursor: pointer;
+    background: #f953c6;
+    background: -webkit-linear-gradient(to right, #b91d73, #f953c6);
+    background: linear-gradient(to left, #b91d73, #f953c6);
+}
+
+#nav-barras li:hover a {
+    color: rgb(245, 207, 245);
+}
+
+#nav-barras .home a{
+  background: sienna;
+}
+
+#home #nav-barras .home,
+#sobre #nav-barras .sobre,
+#servicos #nav-barras .servicos,
+#noticias #nav-barras .noticias, 
+#contato #nav-barras .contato  {
+    border-radius: 8px 8px 0 0;
+    background: purple;
+    color: white;
+}
