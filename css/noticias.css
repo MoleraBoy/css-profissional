@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: whitesmoke url(/img/noticias-cidade/fundo.png) repeat-x top left;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos {
+    color: whitesmoke;
+    background: #de003e;
+    cursor: text;
+}
+
+#container{
+width: 700px;
+margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+    padding-top: 25px;
+    background: url(/img/noticias-cidade/detalhe-topo.png) no-repeat right top;
+}
+
+.logo{
+    width: 152px;
+    height: 66px;
+    background: url(/img/noticias-cidade/logo.png) no-repeat center;
+    /* poderia usar display none mas o robo do goolge não gosta */
+    text-indent: -3000px;
+}
+
+#topo ul{
+    background: #b10333;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+    font-size: .9em;
+    display: block;
+    padding: .5em 1.5em;
+    line-height: 2.1em;
+    color: whitesmoke;
+    background: url(/img/noticias-cidade/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+    background: none;
+}
+
+#topo ul a:hover{
+    color: #69001d;
+    background-color: #de003e;
+}
+
+
+
+
+
+

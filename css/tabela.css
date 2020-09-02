@@ -1,0 +1,48 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: lightyellow;
+}
+
+#tabela {
+    width: 600px;
+    /* serve para tirar espaçamentos */
+    border-collapse: collapse;
+
+}
+
+#tabela th,
+td {
+    padding: 7px;
+}
+
+#tabela tr:hover{
+    background: rgb(228, 197, 73);
+}
+
+#tabela th {
+    text-transform: uppercase;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #111;
+    text-align: left;
+    font-size: 90%;
+    /* da um espaçamento entre as letras */
+    letter-spacing: .1em;
+}
+
+tr.alternado{
+    background-color: #f1e8b3be;
+}
+
+.numero{
+    text-align: right;
+}
+
+.centralizar{
+    text-align: center;
+}
+

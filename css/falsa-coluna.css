@@ -1,0 +1,101 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    /* % foi usada para deixar o layout líquido */
+}
+
+body {
+    font-family: 'Trebuchet MS', 'helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: lightcoral;
+}
+
+#container {
+    /* width: 720px; */
+    width: 960px;
+    /* para não cortar a seta da imagem */
+    min-width: 820px;
+    max-width: 960px;
+    /* min-height e max-height é a mesma ideia */
+    margin: 0 auto;
+    background: whitesmoke url(/img/coluna-falsa/coluna.png) repeat-y;
+}
+
+#marca {
+    height: 200px;
+    background: lightpink url(/img/img-liquida/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+#conteudo {
+    /* width: 520px; */
+    width: 75%;
+    float: right;
+}
+
+/* #imagem{ 
+    width: 90%;
+    /* esconde o conteudo que passa pra fora 
+    /* overflow: hidden; 
+} */
+
+#conteudo-1 {
+    /* width: 320px */
+    width: 64%;
+    float: left;
+}
+
+img.imagem {
+    width: 94%;
+    max-width: 600px;
+    padding: 2%;
+}
+
+#conteudo-2 {
+    /* width: 180px; */
+    width: 35%;
+    float: right;
+    background: #e25d5d;
+}
+
+#conteudo-1 h2,
+p,
+#conteudo-2 h2,
+p {
+    padding: 0 20px 0 20px;
+}
+
+#navegacao {
+    /* width: 180px; */
+    width: 23%;
+    float: left;
+    padding: 20px 0 20px;
+}
+
+#navegacao a {
+    background: rgb(128, 20, 16);
+    color: rgb(255, 255, 255);
+    width: 80%;
+    display: block;
+    text-indent: 25px;
+    text-align: left;
+    padding: 5px;
+    padding-left: .1px;
+}
+
+#navegacao a:hover {
+    background: lightpink;
+    color: rgb(106, 18, 124);
+}
+
+ul #atual a {
+    color: rgb(106, 18, 124);
+    background: lightpink;
+}
+
+#rodape {
+    text-align: center;
+    clear: both;
+    padding: 5px;
+    background: lightpink;
+}

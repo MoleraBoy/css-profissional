@@ -1,0 +1,29 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: #ff00cc;
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
+    background: linear-gradient(to right, #333399, #ff00cc);
+}
+
+.caixa{
+    border-radius: 20px;
+    width: 400px;
+    background: #dedede url(/img/img-arredondada/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa h1{
+    background: #dedede url(/img/img-arredondada/topo2.png) no-repeat;
+padding: 20px 20px 0 20px;
+border-radius: 20px;
+}
+
+.caixa p{
+    background: #dedede url(/img/img-arredondada/baixo2.png) no-repeat left bottom;
+    padding: 0px 20px 20px 20px;
+    border-radius: 20px;
+}

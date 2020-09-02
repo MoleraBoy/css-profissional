@@ -1,0 +1,52 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background: rgb(116, 196, 169);
+}
+
+fieldset {
+    padding: 1em;
+    margin: 1em 0;
+    border: 1px solid rgb(32, 58, 58);
+    background: rgb(48, 136, 136);
+}
+
+legend {
+    color: rgb(252, 246, 246);
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+/* atributo para definir em que elemento esse width será aplicado */
+/* É um recurso novo, alguns navegadores não tem suporte */
+/* input[type="text"]{ 
+    width: 20em;
+}*/
+
+input {
+    width: 20em;
+}
+
+input.radio,
+input.checkbox,
+input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 1em;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
