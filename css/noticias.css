@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     font-family: 'Trebuchet MS', 'helvetica', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: whitesmoke url(/img/noticias-cidade/fundo.png) repeat-x top left;
 }
@@ -13,24 +13,31 @@ body{
 body.home #navegacao a#home,
 body.brasil #navegacao a#brasil,
 body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.internacional #navegacao a#internacional,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
 body.fotos #navegacao a#fotos {
     color: whitesmoke;
     background: #de003e;
     cursor: text;
 }
 
-#container{
-width: 700px;
-margin: 0 auto;
+#container {
+    border: 1px solid red;
+    width: 750px;
+    margin: 0 auto;
 }
 
-#topo{
+/* Menu */
+
+#topo {
     height: 150px;
     padding-top: 25px;
     background: url(/img/noticias-cidade/detalhe-topo.png) no-repeat right top;
 }
 
-.logo{
+.logo {
     width: 152px;
     height: 66px;
     background: url(/img/noticias-cidade/logo.png) no-repeat center;
@@ -38,17 +45,17 @@ margin: 0 auto;
     text-indent: -3000px;
 }
 
-#topo ul{
+#topo ul {
     background: #b10333;
     margin-top: 30px;
     float: left;
 }
 
-#topo ul li{
+#topo ul li {
     float: left;
 }
 
-#topo ul a{
+#topo ul a {
     font-size: .9em;
     display: block;
     padding: .5em 1.5em;
@@ -57,17 +64,54 @@ margin: 0 auto;
     background: url(/img/noticias-cidade/divisor.png) no-repeat left center;
 }
 
-#topo ul .primeiro a{
+#topo ul .primeiro a {
     background: none;
 }
 
-#topo ul a:hover{
+#topo ul a:hover {
     color: #69001d;
     background-color: #de003e;
 }
 
+/* Conteudo */
 
+#conteudo {
+    width: 750px;
+    margin-top: 60px;
+    background: #f5f5f5;
+}
 
+#primario {
+    border: 1px solid red;
+    width: 270px;
+    float: left;
+    margin: 0 .515px 20px 194.5px;
+    background: blue;
+}
 
+#secundario {
+    border: 1px solid red;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 11px;
+    background: green;
+}
 
+#lateral {
+    border: 1px solid red;
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    background: yellow;
+}
 
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: whitesmoke;
+}
