@@ -2,14 +2,16 @@
 <html>
 
 <head>
-    <title>Notícias Cidade - Seu site de notícias</title>
+    <title>Notícias Cidade - Brasil</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/noticias.css">
 </head>
 
-<body class="brasil">
+<body id="duas-colunas" class="brasil">
 
+    <!-- container -->
     <div id="container">
+        <!-- menu -->
         <div id="topo">
             <!-- escrever é uma dica de acessibilidade -->
             <h1 class="logo">Notícias cidade</h1>
@@ -22,6 +24,138 @@
                 <li><a id="ciencia" href="ciencias.html">Ciência</a></li>
                 <li><a id="fotos" href="fotos.html">Fotos</a></li>
             </ul>
+        </div>
+        <!-- menu fim -->
+        <!-- conteudo -->
+        <div id="conteudo">
+            <!-- exibiremos o conteudo primário por acessibilidade -->
+            <!-- primário -->
+            <div id="primario">
+                <!-- caixa entrevista -->
+                <div class="caixa entrevista tamanho">
+                    <h2 class="center">Última entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com Felipe Silva
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </h3>
+                        <a class="img-link" href="fotos.html"><img src="/img/noticias-cidade/doutor.jpg"
+                                alt="felipe-silva" width="100%">
+                        </a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ex enim quo eligendi dignissimos sit, error in quasi
+                            sequi maiores nam rerum esse inventore dolores debitis
+                            nihil! Sint sed nulla neque!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ex enim quo eligendi dignissimos sit, error in quasi
+                            sequi maiores nam rerum esse inventore dolores debitis
+                            nihil! Sint sed nulla neque!
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ex enim quo eligendi dignissimos sit, error in quasi
+                            sequi maiores nam rerum esse inventore dolores debitis
+                            nihil! Sint sed nulla neque!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ex enim quo eligendi dignissimos sit, error in quasi
+                            sequi maiores nam rerum esse inventore dolores debitis
+                            nihil! Sint sed nulla neque!
+                        </p>
+                    </div>
+                </div>
+                <!-- caixa mundo -->
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li><a href=""><img src="/img/noticias-cidade/cidade.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/tecnologia.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/mundo.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/taxi.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- caixa mundo fim -->
+            </div>
+            <!-- primário fim -->
+            <!-- caixa entrevista fim -->
+            <!-- lateral -->
+            <div id="lateral">
+                <!-- menu lateral -->
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">José Almeida</a></li>
+                            <li><a href="brasil.html">Felipe Silva</a></li>
+                            <li><a href="">Renato Rodrigues</a></li>
+                            <li><a href="">Abelardo Silveira</a></li>
+                            <li><a href="">André Carlos</a></li>
+                            <li><a href="">Márcio Mello</a></li>
+                            <li><a href="">João Pedro</a></li>
+                            <li><a href="">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- menu lateral fim -->
+                <!-- caixa news -->
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- news fim -->
+            </div>
+            <!-- lateral fim -->
+        </div>
+        <!-- conteudo fim -->
+    </div>
+    <!-- container fim -->
+
+    <div id="container-rodape" style="clear: both;">
+        <div id="rodape">
+            <!-- alt 0169 é o © e $copy: também é © -->
+            &copy; Copyright 2000-2018 Notícias cidade
         </div>
     </div>
 

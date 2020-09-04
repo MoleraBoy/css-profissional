@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/noticias.css">
 </head>
 
-<body class="home">
+<body id="tres-colunas" class="home">
     <!-- container -->
     <div id="container">
         <!-- menu -->
@@ -27,22 +27,165 @@
         <!-- menu fim -->
         <!-- conteudo -->
         <div id="conteudo">
+            <!-- primário -->
             <!-- exibiremos o conteudo primário por acessibilidade -->
-            <div id="primario">Primário</div>
-            <div id="secundario">Secundário</div>
-            <div id="lateral">Lateral</div>
+            <div id="primario">
+                <!-- caixa destaque -->
+                <div class="caixa destaque">
+                    <h2>Destaque</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Nova legislação</h3>
+                        <img src="/img/noticias-cidade/taxi.jpg" alt="nova-legislacao" width="100%">
+                        <p>Lorem ipsun dolor sit amet,
+                            consectetur adipscing elit.
+                        </p>
+                        <a href="">Leia mais!</a>
+                    </div>
+                </div>
+                <!-- caixa destaque fim -->
+                <!-- caixa mundo -->
+                <div class="caixa">
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li><a href=""><img src="/img/noticias-cidade/cidade.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/tecnologia.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/mundo.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/taxi.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- caixa mundo fim -->
+            </div>
+            <!-- primário fim -->
+            <!-- secundário -->
+            <div id="secundario">
+                <!-- entrevista -->
+                <div class="caixa entrevista">
+                    <h2>Última entrevista</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Entrevista com Felipe Silva</h3>
+                        <a class="img-link" href="brasil.html"><img src="/img/noticias-cidade/doutor.jpg" alt="felipe-silva" width="100%"></a>
+                        <p>Lorem ipsun dolor sit amet,
+                            consectetur adipscing elit.
+                        </p>
+                        <a href="brasil.html">Leia mais!</a>
+                    </div>
+                </div>
+                <!-- entrevista fim -->
+                <!-- notícias recentes -->
+                <div class="caixa">
+                    <h2>Notícias recentes</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li><a href=""><img src="/img/noticias-cidade/tecnologia.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/cidade.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href=""><img src="/img/noticias-cidade/taxi.jpg" alt="tecnologia" width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                            <li><a href="brasil.html"><img src="/img/noticias-cidade/doutor.jpg" alt="tecnologia"
+                                        width="80">
+                                    <h3>Novas tecnologias!</h3>
+                                    <p>Lorem ipsun dolor sit amet,
+                                        consectetur...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- notícias recentes fim -->
+            </div>
+            <!-- secundário fim -->
+            <!-- lateral -->
+            <div id="lateral">
+                <!-- caixa entrevistas -->
+                <div class="caixa">
+                    <h2>Entrevistas</h2>
+                    <div class="caixa-conteudo">
+                        <ul>
+                            <li><a href="">José Almeida</a></li>
+                            <li><a href="brasil.html">Felipe Silva</a></li>
+                            <li><a href="">Renato Rodrigues</a></li>
+                            <li><a href="">Abelardo Silveira</a></li>
+                            <li><a href="">André Carlos</a></li>
+                            <li><a href="">Márcio Mello</a></li>
+                            <li><a href="">João Pedro</a></li>
+                            <li><a href="">Fernando Weiss</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- entrevistas fim -->
+                <!-- lateral fim -->
+                <!-- caixa news -->
+                <div class="caixa">
+                    <h2>News</h2>
+                    <div class="caixa-conteudo">
+                        <form>
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="text" name="email" id="email" placeholder="E-mail">
+                            </div>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- news fim -->
+            </div>
+            <!-- lateral fim -->
         </div>
-        <!-- conteudo fim -->
     </div>
-    <!-- container fim -->
-
+    <!-- conteudo fim -->
+    <!-- rodapé -->
     <div id="container-rodape" style="clear: both;">
         <div id="rodape">
             <!-- alt 0169 é o © e $copy: também é © -->
             &copy; Copyright 2000-2018 Notícias cidade
         </div>
     </div>
-
+    <!-- rodapé fim -->
 
 </body>
 
