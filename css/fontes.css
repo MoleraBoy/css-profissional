@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: lightcoral;
+}
+
+h1 {
+    font-family: "Road", sans-serif;
+    margin: 10px 100px;
+    padding: 5px;
+    font-size: 6em;
+}
+
+h2 {
+    font-family: "Bring", sans-serif;
+    margin: 10px 440px;
+    padding: 5px;
+    font-size: 6em;
+}
+
+h3 {
+    font-family: "Madelina", sans-serif;
+    margin: 10px 370px;
+    padding: 5px;
+    font-size: 6em;
+}
+
+h4 {
+    font-family: "Ancient", sans-serif;
+    margin: 10px 270px;
+    padding: 5px;
+    font-size: 6em;
+}
+
+
+
+/* Fontes */
+
+@font-face {
+    font-family: "Road";
+    src: url("/fontes/RoadRage.woff");
+}
+
+@font-face {
+    font-family: "Bring";
+    src: url("/fontes/BringHeart.woff");
+}
+
+@font-face {
+    font-family: "Madelina";
+    src: url("/fontes/MadelinaScript.woff");
+}
+
+@font-face {
+    font-family: "Ancient";
+    src: url("/fontes/Ancient-Medium.woff");
+}
+
+/* concluido */
